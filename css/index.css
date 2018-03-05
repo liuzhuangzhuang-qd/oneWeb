@@ -1,0 +1,49 @@
+
+/* 手机显示样式 */
+.usImg02{
+    width: 85%;
+}
+
+.usImg01{
+    width: 85%;
+}
+
+.services01{
+    text-align: center;
+    width: 95%;
+
+}
+.services02{
+    width: 85%;
+    height: 14rem;
+}
+.services02 p{
+    text-align: left;
+}
+.services03{
+    width: 95%;
+}
+.services04{
+    width: 60%;
+}
+
+/* PC端显示 */
+
+@media (min-width: 768px){
+    .usImg02{
+        width: 131%;
+        margin: -10% 0 0 -41%;
+    }
+    .animate-box01{
+        margin-top: -26%;
+    }
+    .services02{
+        width: 85%;
+        height: 6rem;
+        margin-left: -6px;
+    }
+    .services04{
+        width: 46%;
+        margin-left: 90px;
+    }
+}
