@@ -62,6 +62,25 @@
     line-height: 30px;
     text-align: center;
 }
+.footerNuws1 div{
+    display: none;
+}
+.footerNuws1 h2{
+    color: white;
+}
+.footerNuws2 img{
+    width: 60%;
+    margin-bottom: 30px;
+}
+.footerNuws2 div{
+    display: none;
+}
+.footerNuws3{
+    display: none;
+}
+.fh5co-widget{
+    text-align: center!important;
+}
 
 /* PC端显示 */
 
@@ -115,6 +134,15 @@
         font-size: .5rem;
         font-weight: bolder;
     }
+    .courseImg{
+        margin-left: 30%;
+        width: 10rem;
+        height: 10rem;
+    }
+    .BUSINESSBox{
+        margin-top: 1rem;
+        width: 80%!important;
+    }
     .Fanhui{
         background: #3379E5!important;
         font-size: 30px;
@@ -142,28 +170,49 @@
     }
     .footerNuws1 h2{
         color: white;
+        font-size: .8rem;
+        margin-top: 20px;
     }
     .footerNuws1 p{
         font-size: 12px;
         line-height: 30px;
         margin: 0;
     }
+    .footerNuws1 div{
+        display: block;
+        background: #3379E5;
+        text-align: center;
+        line-height: 30px;
+        width: 100%;
+        height: 30px;
+        margin-left: -1rem;
+        position: absolute;
+        top: 0;
+    }
     .footerNuws2{
         text-align: center;
         background-color: #333;
+        padding: 0;
         height: 395px;
     }
     .footerNuws2 img{
         margin-top: 90px;
         margin-bottom: 30px;
-        width: 90%;
+        width: 68%;
     }
     .footerNuws2 p{
         font-size: 12px;
         line-height: 30px;
         margin: 0;
     }
+    .footerNuws2 div{
+        display: block;
+        background: #3379E5;
+        line-height: 30px;
+        height: 30px;
+    }
     .footerNuws3{
+        display: block;
         text-align: center; 
         width: 30%;
         color: white;
@@ -179,6 +228,16 @@
     }
     .footerNuws3 p{
         font-size: .4rem;
+    }
+    .footerHeader{
+        background-color: #333;
+        color: #999;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        float: left;
     }
     .footerNum{
         background-color: #333;

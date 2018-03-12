@@ -8,7 +8,8 @@ var fun = function (doc, win) {
     
     //这里是假设在640px宽度设计稿的情况下，1rem = 20px；
     //可以根据实际需要修改
-    docEl.style.fontSize = 14 * (clientWidth / 640) + 'px';
+    // docEl.style.fontSize = 14 * (clientWidth / 500) + 'px';
+    docEl.style.fontSize = 14 * (clientWidth / 500) + 'px';
     };
     if (!doc.addEventListener) return;
     win.addEventListener(resizeEvt, recalc, false);
