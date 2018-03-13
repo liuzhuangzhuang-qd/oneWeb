@@ -263,4 +263,10 @@
     #fh5co-footer{
         padding: 0;
     }
+    .scopeBox1{
+        text-align: right;
+    }
+    .scopeBox img{
+        margin-bottom: 10px;
+    }
 }
