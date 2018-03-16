@@ -10,7 +10,7 @@
 
 .services01{
     text-align: center;
-    width: 95%;
+    width: 100%;
 
 }
 .services02{
@@ -31,14 +31,14 @@
     margin-top: 2rem;
 }
 .services03{
-    width: 95%;
+    width: 100%;
 }
 .services04{
     width: 80%;
     font-weight: bolder;
 }
 .services04 p{
-    font-size: 120%;
+    font-size: 110%;
     font-weight: bolder;
 }
 .Fanhui{
@@ -98,8 +98,8 @@
         line-height: 13rem;
     }
     .usImg02{
-        width: 130%;
-        margin: -.5rem 0 0 -4rem;
+        width: 145%;
+        margin: -.5% 0 0 -27%;
     }
     .animate-box01{
         margin-top: -7rem;
@@ -107,9 +107,9 @@
     .services02{
         text-align: left;
         font-size: 1rem;
-        width: 85%;
+        width: 100%;
         height: 6rem;
-        margin-left: -0.5rem;
+        /* margin-left: -0.5rem; */
     }
     .services02 div{
         font-size: .5rem;
@@ -132,9 +132,9 @@
         margin-left: -0.1rem;
     }
     .services04{
-        width: 70%;
+        width: 100%;
         text-align: left;
-        margin-left: 1.6rem;
+        margin-left: 8%;
     }
     .services04 p{
         margin-top: .8rem;
@@ -173,7 +173,7 @@
         padding-bottom: 30px!important;
     }
     .footerNuws1{
-        margin-left: 3rem;
+        margin-left: 2rem;
         padding-left: 1rem;
         height: 395px;
         background-color: #333;
@@ -181,7 +181,7 @@
     }
     .footerNuws1 h2{
         color: white;
-        font-size: .8rem;
+        font-size: .6rem;
         margin-top: 20px;
     }
     .footerNuws1 p{
@@ -225,9 +225,9 @@
     .footerNuws3{
         display: block;
         text-align: center; 
-        width: 30%;
+        width: 32%;
         color: white;
-        padding-right: 1rem;
+        /* padding-right: 1rem; */
         margin-top: 150px;
     }
     .footerNuws3 h2{
