@@ -269,4 +269,15 @@
     .scopeBox img{
         margin-bottom: 10px;
     }
+    .registerBox{
+        margin-left: 20%;
+        margin-top: -5rem;
+        width: 60%;
+        height: 6rem;
+        background: #3379E5;
+        border: 1px solid red;
+    }
+    #fh5co-register{
+        text-align: center;
+    }
 }
