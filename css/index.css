@@ -89,6 +89,10 @@
 .courseImg img{
     width: 80%;
 }
+.fh5cocourseBox{
+    background-color: #e9f8ff;
+    margin-bottom: 80px;
+}
 
 /* PC端显示 */
 
@@ -277,14 +281,15 @@
     }
     .headingBox{
         background: #008fcb;
-        width: 100%;
-        margin-left: 0%;
+        width: 80%;
+        margin-left: 10%;
         margin-top: -210px;
+        padding-bottom: 2%;
         /* padding-top: 60%; */
-        height: 400px;
+        /* height: 400px;x */
         text-align: left;
     }
-    .headingBox img{
+    .headingBoxImg1{
         margin-top: -70px;
         margin-left: 10px;
         width: 50%;
@@ -294,14 +299,32 @@
         float: left;
         width: 40%;
         padding-left: 2%;
-        /* height: 100%; */
-        border: 1px solid red;
     }
     .headingBoxP{
-        color: white;
+        color: white!important;
+        margin-top: 20px;
         font-size: 26px;
     }
-    .headingBoxImg{
-        float: none!important;
+    .headingBoxImg2{
+        float: right;
+    }
+    .scopeBoxImg img{
+        width: 40%;
+        margin: 1% 1% 0 0;
+        float: left;
+    }
+    .courseBoxD1{
+        border: 1px solid red;
+        float: left;
+    }
+    .courseBoxD1 :nth-child(1){
+        display: block;
+        width: 50%;
+    }
+    .courseBoxD1 :nth-child(2){
+        float: right;
+        display: block;
+        width: 20%;
+        /* border: 1px solid red; */
     }
 }
