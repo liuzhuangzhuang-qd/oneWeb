@@ -269,4 +269,39 @@
     .scopeBox img{
         margin-bottom: 10px;
     }
+    #fh5co-course1111{
+        margin-bottom: 5rem;
+    }
+    #fh5co-testimonial{
+        height: 400px;
+    }
+    .headingBox{
+        background: #008fcb;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: -210px;
+        /* padding-top: 60%; */
+        height: 400px;
+        text-align: left;
+    }
+    .headingBox img{
+        margin-top: -70px;
+        margin-left: 10px;
+        width: 50%;
+        float: left;
+    }
+    .headingBox div{
+        float: left;
+        width: 40%;
+        padding-left: 2%;
+        /* height: 100%; */
+        border: 1px solid red;
+    }
+    .headingBoxP{
+        color: white;
+        font-size: 26px;
+    }
+    .headingBoxImg{
+        float: none!important;
+    }
 }
