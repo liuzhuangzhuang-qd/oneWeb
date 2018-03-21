@@ -93,6 +93,37 @@
     background-color: #e9f8ff;
     margin-bottom: 80px;
 }
+.scopeBox1{
+    text-align: right;
+    margin-right: 2rem;
+}
+.scopeBoxImg{
+    text-align: center
+}
+.scopeBoxImg img{
+    width: 40%;
+    margin-bottom: 1%;
+}
+.courseBoxD1{
+    height: 50px;
+    padding-top: 15px;
+}
+.courseBoxD1 :nth-child(1){
+    display: block;
+    padding-left: 10%;
+    float: left;
+    width: 50%;
+}
+.courseBoxD1 :nth-child(2){
+    float: right;
+    display: block;
+    width: 20%;
+}
+.courseBoxD2 img{
+    position: relative;
+    padding-top: 20px;
+    right: -53%;
+}
 
 /* PC端显示 */
 
@@ -269,6 +300,7 @@
     }
     .scopeBox1{
         text-align: right;
+        margin-bottom: 5px;
     }
     .scopeBox img{
         margin-bottom: 10px;
@@ -314,17 +346,26 @@
         float: left;
     }
     .courseBoxD1{
-        border: 1px solid red;
-        float: left;
+        height: 50px;
+        padding-top: 15px;
     }
     .courseBoxD1 :nth-child(1){
         display: block;
+        padding-left: 10%;
+        float: left;
         width: 50%;
     }
     .courseBoxD1 :nth-child(2){
         float: right;
         display: block;
         width: 20%;
-        /* border: 1px solid red; */
+    }
+    .courseBoxD2 img{
+        position: relative;
+        padding-top: 20px;
+        right: -15%;
+    }
+    .fh5co-event{
+        border: 1px solid red;
     }
 }
