@@ -1242,7 +1242,8 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
 }
 #fh5co-offcanvas ul li {
-  padding: 0;
+  padding: .6rem 0;
+  font-size: 1.6rem;
   margin: 0;
   list-style: none;
 }
