@@ -16,3 +16,9 @@ var fun = function (doc, win) {
     doc.addEventListener('DOMContentLoaded', recalc, false);
     }
     fun(document, window);
+
+//点击跳转
+$('.goto1').on('click',function(){
+    console.log("==============================")
+    window.location.href = "./html/Chinese/intro.html";
+})
