@@ -1,0 +1,72 @@
+.ceterBox1{
+    text-align: center;
+}
+.ceterBox1 img{
+    width: 80%;
+}
+.ceterBox2{
+    padding-left: 10%;
+    padding-top: 3rem;
+}
+.ceterBox2 p{
+    font-size: .5rem;
+    width: 90%;
+    text-indent: 2em;
+}
+.ceterBox3{
+    text-align: center;
+}
+.ceterBox3 img{
+    width: 80%;
+}
+.ceterBox4{
+    padding-left: 10%;
+    padding-top: 3rem;
+}
+.ceterBox4 p{
+    font-size: .5rem;
+    width: 90%;
+    text-indent: 2em;
+    /* border: 1px solid red; */
+}
+
+
+
+/* =====================================================PC端显示=================================================== */
+
+@media (min-width: 768px){
+    .ceterBox1{
+        text-align: center;
+    }
+    .ceterBox1 img{
+        width: 70%;
+        /* border: 1px solid red; */
+    }
+    .ceterBox2{
+        padding-left: 0%;
+        padding-top: 0;
+    }
+    .ceterBox2 p{
+        font-size: .5rem;
+        width: 80%;
+        text-indent: 2em;
+        /* border: 1px solid red; */
+    }
+    .ceterBox3{
+        text-align: center;
+    }
+    .ceterBox3 img{
+        width: 70%;
+        /* border: 1px solid red; */
+    }
+    .ceterBox4{
+        padding-left: 0%;
+        padding-top: 0;
+    }
+    .ceterBox4 p{
+        font-size: .5rem;
+        width: 80%;
+        text-indent: 2em;
+        /* border: 1px solid red; */
+    }
+}
