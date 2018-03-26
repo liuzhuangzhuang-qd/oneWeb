@@ -210,6 +210,9 @@
 .teamImg4 img{
     cursor: pointer;
 }
+#dropdownBox{
+    display: none;
+}
 
 /* =====================================================PC端显示=================================================== */
 
@@ -491,5 +494,23 @@
     .blogImg2 img{
         width: 12%;
         cursor: pointer;
+    }
+    #dropdownBox{
+        padding-top: 10px;
+        position: absolute;
+        right: 6%;
+        width: 3rem;
+        height: 4rem;
+        z-index: 1;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+    }
+    #dropdownBox div{
+        width: 100%;
+        height: 25%;
+    }
+    #dropdownBox a{
+        color: white;
     }
 }

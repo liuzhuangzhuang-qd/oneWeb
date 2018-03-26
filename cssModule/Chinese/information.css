@@ -1,0 +1,30 @@
+.centerBox2{
+    padding-left: 15%;
+}
+.centerBox2 div :nth-child(1){
+    color: orangered;
+    font-size: .6rem;
+}
+.centerBox2 div :nth-child(2){
+    text-indent: 2em;
+    font-size: .4rem;
+}
+.centerBox3{
+    padding-left: 15%;
+}
+.centerBox3 p{
+    color: orangered;
+    font-size: .6rem;
+}
+.centerBox4{
+    padding-left: 15%;
+}
+.centerBox4{
+    text-indent: 2em;
+    font-size: .4rem;
+}
+.centerBox5{
+    padding-left: 15%;
+    text-indent: 2em;
+    font-size: .4rem;
+}

@@ -1258,7 +1258,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  font-family: '↓↑';
+  /* font-family: '↓↑'; */
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1268,7 +1268,7 @@ h1, h2, h3, h4, h5, h6, figure {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\ea1c";
+  content: "↓";
   font-size: 20px;
   color: rgba(255, 255, 255, 0.2);
   -webkit-transition: 0.5s;
