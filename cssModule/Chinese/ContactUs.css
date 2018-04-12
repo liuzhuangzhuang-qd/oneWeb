@@ -1,7 +1,7 @@
 .centerBox2{
     padding: 30px;
     background: rgba(0, 0, 0, 0.05);
-    width: 90%;
+    width: 100%;
     margin-left: 5%;
     border-radius: 10px;
 }
@@ -14,7 +14,7 @@
 }
 .centerBox4{
     margin-top: 2.5%;
-    height: 230px;
+    height: 250px;
     margin-left: 5%;
     width: 90%;
     padding: 30px;
@@ -23,7 +23,7 @@
 }
 .centerBox5{
     margin-top: 2.5%;
-    height: 230px;
+    height: 250px;
     margin-left: 5%;
     width: 90%;
     padding: 30px;
@@ -33,7 +33,7 @@
 
 @media (min-width: 768px){
     .centerBox2{
-        width: 49%;
+        width: 100%;
         padding-top: 30px;
         background: rgba(0, 0, 0, 0.05);
         border-radius: 10px;
@@ -50,7 +50,7 @@
     .centerBox4{
         width: 30%;
         margin-top: 2.5%;
-        height: 230px;
+        height: 250px;
         margin-right: 3.3%;
         padding-top: 30px;
         background: rgba(0, 0, 0, 0.05);
@@ -60,7 +60,7 @@
     .centerBox5{
         width: 30%;
         margin-top: 2.5%;
-        height: 230px;
+        height: 250px;
         margin-right: 3.3%;
         padding-top: 30px;
         background: rgba(0, 0, 0, 0.05);

@@ -496,21 +496,43 @@
         cursor: pointer;
     }
     #dropdownBox{
-        padding-top: 10px;
         position: absolute;
-        right: 6%;
-        width: 3rem;
+        width: 100%;
         height: 4rem;
         z-index: 1;
-        text-align: center;
-        background: rgba(0, 0, 0, 0.5);
         display: none;
     }
-    #dropdownBox div{
+    #dropdownBox11{      
+        width: 750px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;       
+    }
+    #dropdownBox22{
+        background: rgba(0, 0, 0, 0.5);
+        padding-top: 10px;
+        width: 2.5rem;
+        height: 100%;
+        /* height: 4rem; */
+        float: right;
+        text-align: center;
+    }
+    #dropdownBox22 div{
         width: 100%;
         height: 25%;
     }
-    #dropdownBox a{
+    #dropdownBox22 a{
         color: white;
+    }
+}
+@media (min-width: 992px){
+    #dropdownBox11{
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px){
+    #dropdownBox11{
+        width: 1170px;
     }
 }
