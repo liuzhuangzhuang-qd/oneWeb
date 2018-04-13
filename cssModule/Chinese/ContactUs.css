@@ -30,6 +30,21 @@
     background: rgba(0, 0, 0, 0.05);
     border-radius: 10px;
 }
+.centerBox6{
+    margin-top: 2.5%;
+    height: 250px;
+    margin-left: 5%;
+    width: 90%;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.dituContent2{
+    display: none;
+}
+.centerBox2{
+    width: 90%;
+}
 
 @media (min-width: 768px){
     .centerBox2{
@@ -48,23 +63,36 @@
         width: 100%;
     }
     .centerBox4{
-        width: 30%;
+        width: 32%;
         margin-top: 2.5%;
         height: 250px;
-        margin-right: 3.3%;
+        margin-right: 2%;
         padding-top: 30px;
         background: rgba(0, 0, 0, 0.05);
         border-radius: 10px;
         margin-left: 0;
     }
     .centerBox5{
-        width: 30%;
+        width: 32%;
         margin-top: 2.5%;
         height: 250px;
-        margin-right: 3.3%;
+        margin-right: 2%;
         padding-top: 30px;
         background: rgba(0, 0, 0, 0.05);
         border-radius: 10px;
         margin-left: 0;
+    }
+    .centerBox6{
+        width: 32%;
+        margin-top: 2.5%;
+        height: 250px;
+        /* margin-right: 3.3%; */
+        padding-top: 30px;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        margin-left: 0;
+    }
+    .dituContent2{
+        display: block;
     }
 }

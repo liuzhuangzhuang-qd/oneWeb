@@ -9,7 +9,7 @@ function initMap(){
 //创建地图函数：
 function createMap(){
     var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-    var point = new BMap.Point(115.949652,28.693851);//定义一个中心点坐标
+    var point = new BMap.Point(120.381064,36.091552);//定义一个中心点坐标
     map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
     window.map = map;//将map变量存储在全局
 }
@@ -36,7 +36,7 @@ function addMapControl(){
 }
 
 //标注点数组
-var markerArr = [{title:"百恒网络",content:"电话：0791-88117053<br/>手 机：15079002975",point:"115.950312|28.693447",isOpen:1,icon: {w:23,h:25,l:46,t:21,x:9,lb:12}}
+var markerArr = [{title:"青岛展诚科技有限公司",content:"电话：+86 0532 85822774<br/>手 机：+86 18660255299",point:"120.381064|36.091552",isOpen:1,icon: {w:23,h:25,l:46,t:21,x:9,lb:12}}
 ];
 //创建marker
     function addMarker(){

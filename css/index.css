@@ -511,9 +511,10 @@
     #dropdownBox22{
         background: rgba(0, 0, 0, 0.5);
         padding-top: 10px;
-        width: 2.5rem;
+        width: 93px;
         height: 100%;
         /* height: 4rem; */
+        border-radius: 6px;
         float: right;
         text-align: center;
     }
@@ -524,15 +525,26 @@
     #dropdownBox22 a{
         color: white;
     }
+    .fh5co-nav ul li a{
+        font-size: 15px;
+        margin: 0 10px;
+    }
 }
 @media (min-width: 992px){
     #dropdownBox11{
         width: 970px;
+    }
+    .fh5co-nav ul li a{
+        font-size: 15px;
+        margin: 0 20px;
     }
 }
 
 @media (min-width: 1200px){
     #dropdownBox11{
         width: 1170px;
+    }
+    .fh5co-nav ul li a{
+        font-size: 16px;
     }
 }
