@@ -28,3 +28,24 @@
     text-indent: 2em;
     font-size: .4rem;
 }
+.centerBox6{
+    margin-top: 40px;
+    text-align: center;
+}
+.centerBox6 img{
+    width: 10%;
+    margin: 0 2%;
+
+}
+
+@media (min-width: 768px){
+    .centerBox5{
+        padding-left: 10%;
+        text-indent: 2em;
+        font-size: .4rem;
+    }
+    .centerBox6{
+        margin-top: 80px;
+        text-align: center;
+    }
+}

@@ -97,6 +97,7 @@
 .scopeBox1{
     text-align: right;
     margin-right: 2rem;
+    margin-top: 1rem;
 }
 .scopeBoxImg{
     text-align: center
@@ -213,6 +214,14 @@
 #dropdownBox{
     display: none;
 }
+.fh5co-blog .blog-text{
+    position: relative;
+    background: rgba(0, 0, 0, 0.03);
+    width: 100%;
+    padding: 0 30px;
+    float: left;
+}
+
 
 /* =====================================================PC端显示=================================================== */
 
@@ -528,6 +537,13 @@
     .fh5co-nav ul li a{
         font-size: 15px;
         margin: 0 10px;
+    }
+    .fh5co-blog .blog-text{
+        position: relative;
+        background: rgba(0, 0, 0, 0.03);
+        width: 100%;
+        padding: 0 0px;
+        float: left;
     }
 }
 @media (min-width: 992px){
