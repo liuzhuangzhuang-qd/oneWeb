@@ -8,10 +8,13 @@
     padding-left: 10%;
     padding-top: 3rem;
 }
+.ceterBox2 span{
+    font-size: 1rem;
+}
 .ceterBox2 p{
     font-size: .5rem;
     width: 90%;
-    text-indent: 2em;
+    /* text-indent: 2em; */
 }
 .ceterBox3{
     text-align: center;
@@ -23,10 +26,13 @@
     padding-left: 10%;
     padding-top: 3rem;
 }
+.ceterBox4 span{
+    font-size: 1rem;
+}
 .ceterBox4 p{
     font-size: .5rem;
     width: 90%;
-    text-indent: 2em;
+    /* text-indent: 2em; */
     /* border: 1px solid red; */
 }
 #dropdownBox{
@@ -46,17 +52,17 @@
         /* border: 1px solid red; */
     }
     .ceterBox2{
-        padding-left: 0%;
-        padding-top: 0;
+        padding-left: 10%;
+        padding-top: 30px;
     }
     .ceterBox2 span{
-        font-size: .6rem;
+        font-size: 1rem;
     }
     .ceterBox2 p{
-        font-size: .4rem;
+        font-size: .6rem;
         margin-bottom:9px;
         width: 80%;
-        text-indent: 2em;
+        /* text-indent: 2em; */
         /* border: 1px solid red; */
     }
     .ceterBox3{
@@ -68,18 +74,18 @@
         /* border: 1px solid red; */
     }
     .ceterBox4{
-        padding-left: 0%;
-        padding-top: 0;
+        padding-left: 10%;
+        padding-top: 30px;
         padding-top: 80px;
     }
     .ceterBox4 span{
-        font-size: .6rem;
+        font-size: 1rem;
     }
     .ceterBox4 p{
-        font-size: .4rem;
+        font-size: .6rem;
         margin-bottom:9px;
         width: 80%;
-        text-indent: 2em;
+        /* text-indent: 2em; */
         /* border: 1px solid red; */
     }
     #dropdownBox{
@@ -99,5 +105,34 @@
     }
     #dropdownBox a{
         color: white;
+    }
+}
+@media (min-width: 992px){
+    .ceterBox2{
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .ceterBox2 span{
+        font-size: .8rem;
+    }
+    .ceterBox2 p{
+        font-size: .4rem;
+    }
+    .ceterBox4{
+        padding-left: 0;
+        padding-top: 80px;
+    }
+    .ceterBox4 span{
+        font-size: .8rem;
+    }
+    .ceterBox4 p{
+        font-size: .4rem;
+    }
+}
+@media (min-width: 1200px){
+    .ceterBox2{
+        /* border: 1px solid red; */
+        height: 410px;
+        padding-left: 0;
     }
 }

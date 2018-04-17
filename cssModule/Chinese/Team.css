@@ -5,7 +5,7 @@
 .courseBoxD3 div{
     width: 20%;
     float: left;
-    margin: 10px 33px;
+    margin: 10px 6%;
     text-align: center;
 }
 .courseBoxD3 p{
@@ -14,4 +14,23 @@
 }
 .courseBoxD3 img{
     width: 100%
+}
+.courseBoxD2{
+    font-size: .5rem;
+}
+.courseBoxD2 :nth-child(1){
+    width: 80%
+}
+.courseBoxD21{
+    height: 70px;
+}
+.courseBoxD21 p{
+    padding-left: 0!important;
+}
+.courseBoxD21 div{
+    width: 117px!important;
+    position: absolute;
+    margin-top: 32px;
+    float: none;
+    border: 1px solid rgb(26, 136, 209);
 }
