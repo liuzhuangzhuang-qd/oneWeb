@@ -1,3 +1,17 @@
+.courseBoxD1 :nth-child(1){
+    width: 100%;
+}
+/* .courseBoxD1 :first{
+    width: 100%;
+    color: rgb(26, 136, 209);
+} */
+.courseBoxD1 :nth-child(2){
+    width: 50%;
+    text-align: right;
+    /* color: rgb(26, 136, 209); */
+}
+
+
 .courseBoxD3{
     width: 100%;
     float: left;
@@ -16,21 +30,75 @@
     width: 100%
 }
 .courseBoxD2{
-    font-size: .5rem;
+    font-size: 1.5rem;
 }
 .courseBoxD2 :nth-child(1){
-    width: 80%
+    width: 100%
+}
+.courseBoxD2 :nth-child(2){
+    text-align: right;
+    width: 100%
 }
 .courseBoxD21{
-    height: 70px;
+    /* height: 70px;     */
 }
 .courseBoxD21 p{
     padding-left: 0!important;
 }
 .courseBoxD21 div{
-    width: 117px!important;
-    position: absolute;
-    margin-top: 32px;
-    float: none;
-    border: 1px solid rgb(26, 136, 209);
+    display: none;
+}
+
+@media (min-width: 768px){
+    .courseBoxD1{
+        font-size: 12px;
+    }
+    .courseBoxD1 :nth-child(1){
+        width: 70%;
+        font-size: .6rem;
+    }
+    .courseBoxD1 :nth-child(2){
+        width: 20%;
+        text-align: right;
+        font-size: .6rem;
+    }
+}
+@media (min-width: 992px){
+    .courseBoxD21 div{
+        width: 150px!important;
+        position: absolute;
+        margin-top: 32px;
+        float: none;
+        border: 1px solid rgb(26, 136, 209);
+    }
+    .courseBoxD1 :nth-child(1){
+        width: 70%;
+        font-size: .45rem;
+    }
+    .courseBoxD1 :nth-child(2){
+        width: 20%;
+        text-align: right;
+        font-size: .45rem;
+    }
+}
+@media (min-width: 1200px){
+    .courseBoxD1 :nth-child(1){
+        width: 70%;
+        font-size: 16px
+    }
+    .courseBoxD1 :nth-child(2){
+        width: 20%;
+        text-align: right;
+        font-size: 16px;
+    }
+    .courseBoxD21 div{
+        width: 160px!important;
+        position: absolute;
+        margin-top: 32px;
+        float: none;
+        border: 1px solid rgb(26, 136, 209);
+    }
+    .courseBoxD21{
+        height: 70px;    
+    }
 }

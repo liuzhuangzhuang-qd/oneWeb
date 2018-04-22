@@ -35,9 +35,9 @@
     /* text-indent: 2em; */
     /* border: 1px solid red; */
 }
-#dropdownBox{
+/* #dropdownBox{
     display: none;
-}
+} */
 
 
 
@@ -88,7 +88,7 @@
         /* text-indent: 2em; */
         /* border: 1px solid red; */
     }
-    #dropdownBox{
+    /* #dropdownBox{
         padding-top: 10px;
         position: absolute;
         right: 6%;
@@ -98,14 +98,14 @@
         text-align: center;
         background: rgba(0, 0, 0, 0.5);
         display: none;
-    }
-    #dropdownBox div{
+    } */
+    /* #dropdownBox div{
         width: 100%;
         height: 25%;
     }
     #dropdownBox a{
         color: white;
-    }
+    } */
 }
 @media (min-width: 992px){
     .ceterBox2{

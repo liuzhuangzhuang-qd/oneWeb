@@ -34,7 +34,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-2">
-							<img class="logoImg" src="./images/logo_C.gif" alt="">
+							<img class="logoImg" src="./images/logo.jpg" alt="">
 							<div id="fh5co-logo"></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1 navBox">
@@ -43,15 +43,15 @@
 								<li><a href="./html/Chinese/intro.html">关于我们</a></li>
 								<li><a href="./html/Chinese/business.html">业务范畴</a></li>
 								<li><a href="./html/Chinese/Team.html">我们的团队</a></li>
-								<li><a href="#">服务模式</a></li>
+								<li><a href="#" id="maodian">服务模式</a></li>
 								<li><a href="./html/Chinese/information.html">信息安全</a></li>
 								<li><a href="./html/Chinese/ContactUs.html">联系我们</a></li>
 								<li class="has-dropdown">
 									<a id="language" href="#">语言</a>
 									<ul class="dropdown">
 										<li><a href="index.html">中文</a></li>
-										<li><a href="#">English</a></li>
-										<li><a href="#">日本語</a></li>
+										<li><a href="./index_EN.html">English</a></li>
+										<!-- <li><a href="#">日本語</a></li> -->
 									</ul>
 								</li>
 							</ul>
@@ -65,14 +65,14 @@
 			<div id="dropdownBox11">
 				<div id="dropdownBox22">
 					<div>
-						<a id="dropdownBox1" href="#">中文</a>
+						<a id="dropdownBox1" href="./index.html">中文</a>
 					</div>
 					<div>
-						<a id="dropdownBox2" href="../English/business_EN.html">English</a>
+						<a id="dropdownBox2" href="./index_EN.html">English</a>
 					</div>
-					<div>
+					<!-- <div>
 						<a id="dropdownBox3" href="#">日本語</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -214,14 +214,6 @@
 								<p>IT及技术支持</p>
 								<p>3人</p>
 							</div>
-							<!-- <div class="courseBoxD1">
-								<p>高级技术顾问</p>
-								<p>26人</p>
-							</div>
-							<div class="courseBoxD1">
-								<p>高级技术顾问</p>
-								<p>26人</p>
-							</div> -->
 							<div class="courseBoxD2">
 								<img src="./images/redmore01.png" alt=""><br>
 							</div>				
@@ -234,12 +226,6 @@
 							<img src="./images/img(275x240)_03.jpg" alt="">	
 							<img src="./images/img(275x240)_06.jpg" alt="">				
 						</div>
-						<!-- <div class="fh5co-blog animate-box scopeBoxImg">
-							<img src="./images/team01.jpg" alt="">
-							<img src="./images/team02.jpg" alt="">
-							<img src="./images/team03.jpg" alt="">
-							<img src="./images/team04.jpg" alt="">					
-						</div> -->
 					</div>
 				</div>
 			</div>
@@ -390,6 +376,12 @@
 	$('#dropdownBox1').on('click',function(){
 		$('#dropdownBox').toggle(300)
 	})
+
+	$("#maodian").click(function() {  
+		$("html, body").animate({  
+		scrollTop: $("#fh5co-blog").offset().top }, {duration: 1000,easing: "swing"});  
+		return false;  
+	}); 
 
 	</script>
 	</body>

@@ -1,32 +1,33 @@
 .centerBox2{
-    padding-left: 15%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 .centerBox2 div :nth-child(1){
     color: orangered;
-    font-size: .6rem;
+    font-size: 20px;
 }
 .centerBox2 div :nth-child(2){
     text-indent: 2em;
-    font-size: .4rem;
+    font-size: 15px;
 }
 .centerBox3{
-    padding-left: 15%;
+    padding-left: 12%;
 }
 .centerBox3 p{
     color: orangered;
-    font-size: .6rem;
+    font-size: 20px;
 }
 .centerBox4{
-    padding-left: 15%;
+    padding-left: 12%;
 }
 .centerBox4{
-    text-indent: 2em;
-    font-size: .4rem;
+    /* text-indent: 2em; */
+    font-size: 15px;
 }
 .centerBox5{
-    padding-left: 15%;
-    text-indent: 2em;
-    font-size: .4rem;
+    padding-left: 12%;
+    /* text-indent: 2em; */
+    font-size: 15px;
 }
 .centerBox6{
     margin-top: 40px;
@@ -37,15 +38,78 @@
     margin: 0 2%;
 
 }
-
 @media (min-width: 768px){
     .centerBox5{
-        padding-left: 10%;
-        text-indent: 2em;
+        padding-left: 12%;
         font-size: .4rem;
     }
     .centerBox6{
         margin-top: 80px;
         text-align: center;
+    }
+    .centerBox2 div :nth-child(1){
+        color: orangered;
+        font-size: .6rem;
+    }
+    .centerBox2 div :nth-child(2){
+        text-indent: 2em;
+        font-size: .4rem;
+    }
+    .centerBox3 p{
+        color: orangered;
+        font-size: .6rem;
+    }
+    .centerBox4{
+        font-size: .4rem;
+    }
+}
+@media (min-width: 992px){
+    .centerBox5{
+        padding-left: 5%;
+        text-indent: 0em;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .centerBox2{
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    .centerBox2 div :nth-child(1){
+        color: orangered;
+        font-size: 26px;
+    }
+    .centerBox2 div :nth-child(2){
+        text-indent: 2em;
+        font-size: 18px;
+    }
+    .centerBox3{
+        padding-left: 12%;
+    }
+    .centerBox3 p{
+        color: orangered;
+        font-size: 26px;
+    }
+    .centerBox4{
+        padding-left: 12%;
+    }
+    .centerBox4{
+        font-size: 17px;
+    }
+
+    .centerBox5{
+        padding-left: 5%;
+        font-size: 17px;
+        text-indent: 0em;
+    }
+    .centerBox6{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .centerBox6 img{
+        width: 10%;
+        margin: 0 2%;
+    
     }
 }
