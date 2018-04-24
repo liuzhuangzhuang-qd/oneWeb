@@ -120,7 +120,7 @@
     }
     .ceterBox4{
         padding-left: 0;
-        padding-top: 80px;
+        padding-top: 40px;
     }
     .ceterBox4 span{
         font-size: .8rem;
@@ -134,5 +134,17 @@
         /* border: 1px solid red; */
         height: 410px;
         padding-left: 0;
+    }
+    .ceterBox2 p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .ceterBox4{
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    .ceterBox4 p{
+        width: 100%;
+        font-size: 16px;
     }
 }
