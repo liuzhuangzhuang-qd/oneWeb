@@ -40,21 +40,21 @@ $('.goto5').on('click',function(){
 })
 $('.gotoEn1').on('click',function(){
     console.log("==============================")
-    window.location.href = "./html/Chinese/intro_EN.html";
+    window.location.href = "./html/English/intro_EN.html";
 })
 $('.gotoEn2').on('click',function(){
     console.log("==============================")
-    window.location.href = "./html/Chinese/business_EN.html";
+    window.location.href = "./html/English/business_EN.html";
 })
 $('.gotoEn3').on('click',function(){
     console.log("==============================")
-    window.location.href = "./html/Chinese/Team_EN.html";
+    window.location.href = "./html/English/Team_EN.html";
 })
 $('.gotoEn4').on('click',function(){
     console.log("==============================")
-    window.location.href = "./html/Chinese/information_EN.html";
+    window.location.href = "./html/English/information_EN.html";
 })
 $('.gotoEn5').on('click',function(){
     console.log("==============================")
-    window.location.href = "./html/Chinese/Team_EN.html";
+    window.location.href = "./html/English/Team_EN.html";
 })
