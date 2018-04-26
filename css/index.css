@@ -24,7 +24,7 @@
 .services02 p{
     text-align: left;
     text-indent:2em;
-    font-size: .8rem;
+    font-size: 15px;
     margin-bottom: .5rem;
 }
 .services02 span img{
@@ -588,6 +588,15 @@
         width: 110px;
         right: 15%;
     }
+    .services02 p{
+        font-size: 15px;
+    }
+    .services04 p{
+        font-size: 18px;
+    }
+    .services02 span img{
+        width: 100px;
+    }
 
 }
 
@@ -607,5 +616,14 @@
     .courseBoxD2 img{
         width: 130px;
         right: 15%;
+    }
+    .services02 p{
+        font-size: 16px;
+    }
+    .services04 p{
+        font-size: 20px;
+    }
+    .services02 span img{
+        width: 130px;
     }
 }

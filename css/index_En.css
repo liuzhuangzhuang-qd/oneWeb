@@ -24,7 +24,7 @@
 .services02 p{
     text-align: left;
     text-indent:2em;
-    font-size: .8rem;
+    font-size: 15px;
     margin-bottom: .5rem;
 }
 .services02 span img{
@@ -265,7 +265,7 @@
         margin: -.5% 0 0 -27%;
     }
     .animate-box01{
-        margin-top: -7rem;
+        margin-top: -8rem;
     }
     .services02{
         text-align: left;
@@ -605,6 +605,15 @@
         width: 110px;
         right: 7%;
     }
+    .services02 p{
+        font-size: 14px;
+    }
+    .services04 p{
+        font-size: 17px;
+    }
+    .services02 span img{
+        width: 100px;
+    }
 
 }
 
@@ -628,5 +637,14 @@
     .courseBoxD1 :nth-child(2){
         text-align: left;
         padding-right: 0;
+    }
+    .services02 p{
+        font-size: 16px;
+    }
+    .services04 p{
+        font-size: 20px;
+    }
+    .services02 span img{
+        width: 130px;
     }
 }
