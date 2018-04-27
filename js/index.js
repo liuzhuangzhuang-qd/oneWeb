@@ -14,8 +14,16 @@ var fun = function (doc, win) {
     if (!doc.addEventListener) return;
     win.addEventListener(resizeEvt, recalc, false);
     doc.addEventListener('DOMContentLoaded', recalc, false);
+}
+fun(document, window);
+//返回顶部
+(function smoothscroll(){
+    var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+    if (currentScroll > 0) {
+        window.requestAnimationFrame(smoothscroll);
+        window.scrollTo (0,currentScroll - (currentScroll/5));
     }
-    fun(document, window);
+})();
 
 //点击跳转
 $('.goto1').on('click',function(){
