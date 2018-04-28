@@ -9,7 +9,7 @@
     padding-top: 3rem;
 }
 .ceterBox2 span{
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .ceterBox2 p{
     font-size: .5rem;
@@ -27,7 +27,7 @@
     padding-top: 3rem;
 }
 .ceterBox4 span{
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .ceterBox4 p{
     font-size: .5rem;
@@ -35,9 +35,9 @@
     /* text-indent: 2em; */
     /* border: 1px solid red; */
 }
-/* #dropdownBox{
-    display: none;
-} */
+.posted_on12{
+    margin-top: 20px;
+}
 
 
 
@@ -88,24 +88,9 @@
         /* text-indent: 2em; */
         /* border: 1px solid red; */
     }
-    /* #dropdownBox{
-        padding-top: 10px;
-        position: absolute;
-        right: 6%;
-        width: 3rem;
-        height: 4rem;
-        z-index: 1;
-        text-align: center;
-        background: rgba(0, 0, 0, 0.5);
-        display: none;
-    } */
-    /* #dropdownBox div{
-        width: 100%;
-        height: 25%;
+    .posted_on12{
+        margin-top: 10px;
     }
-    #dropdownBox a{
-        color: white;
-    } */
 }
 @media (min-width: 992px){
     .ceterBox2{
