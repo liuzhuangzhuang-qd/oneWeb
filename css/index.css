@@ -44,7 +44,7 @@
 }
 .Fanhui{
     background: #3379E5!important;
-    font-size: 30px;
+    font-size: 26px;
 }
 .footerImg{
     background: url("../images/pic01.jpg") no-repeat;
@@ -243,7 +243,10 @@
 .goto5{
     width: 12%;
 }
-
+.serviceImg{
+    width: 90%;
+    margin-left: 5%;
+}
 /* =====================================================PC端显示=================================================== */
 
 @media (min-width: 768px){
@@ -309,7 +312,7 @@
     }
     .Fanhui{
         background: #3379E5!important;
-        font-size: 30px;
+        font-size: 26px;
     }
     .block{
         border: 1px solid red;
@@ -572,7 +575,12 @@
         padding: 0 0px;
         float: left;
     }
+    .serviceImg{
+        width: 90%;
+        margin-left: 5%;
+    }
 }
+
 @media (min-width: 992px){
     #dropdownBox11{
         width: 970px;
@@ -596,6 +604,13 @@
     }
     .services02 span img{
         width: 100px;
+    }
+    .serviceImg{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .footerNuws3{
+        padding-right: 7%;
     }
 
 }
@@ -631,5 +646,8 @@
     }
     .headingBoxP0321{
         font-size: 23px;
+    }
+    .footerNuws3{
+        padding-right: 7%;
     }
 }

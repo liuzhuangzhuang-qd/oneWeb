@@ -44,7 +44,7 @@
 }
 .Fanhui{
     background: #3379E5!important;
-    font-size: 30px;
+    font-size: 26px;
 }
 .footerImg{
     background: url("../images/pic01.jpg") no-repeat;
@@ -252,6 +252,10 @@
 .goto5{
     width: 12%;
 }
+.serviceImg{
+    width: 90%;
+    margin-left: 5%;
+}
 
 /* =====================================================PC端显示=================================================== */
 
@@ -318,7 +322,7 @@
     }
     .Fanhui{
         background: #3379E5!important;
-        font-size: 30px;
+        font-size: 26px;
     }
     .block{
         border: 1px solid red;
@@ -585,6 +589,10 @@
     .gotoEn5{
         width: 28%;
     }
+    .serviceImg{
+        width: 90%;
+        margin-left: 5%;
+    }
 }
 /* =========================================================================================== */
 @media (min-width: 992px){
@@ -613,6 +621,13 @@
     }
     .services02 span img{
         width: 100px;
+    }
+    .serviceImg{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .footerNuws3{
+        padding-right: 7%;
     }
 
 }
@@ -646,5 +661,12 @@
     }
     .services02 span img{
         width: 130px;
+    }
+    .serviceImg{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .footerNuws3{
+        padding-right: 7%;
     }
 }
